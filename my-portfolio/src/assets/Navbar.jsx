@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div id="navbar"  className='sticky top-0'>
+    <div id="navbar"  className='sticky top-0 z-1'>
         <div class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-500 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
-        <div class="flex">
+        <div class="flex text-white">
            <div class="w-20 flex-none ...">
               <a href="#hero">Home</a>
               
